@@ -1,10 +1,17 @@
 ---
 layout: home
 ---
-# About Theme
+# About  
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+### Technical  
+\- Full-stack Software Engineer.  
+\- Machine Learning Engineer.  
+\- Code Imperator at [Neustar](https://www.neustar.biz/)
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
+### Personal  
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+When I'm not tinkering with technology you'll likely find me on top of a rock some where, be it via hiking a trail or scaling the face of a cliff.
+
+I have a passion for real food and Bio-hacking as well as the quantified self movement. I want people to be more connected with their food and more aware of the effects food has on the body. I believe there's a lot wrong with our current food systems and health care systems and I want to actively work to change this. If you have a company oriented in this regard please reach out to me.
+
+### [Resume](http://blog.kwyn.io/resume/)
