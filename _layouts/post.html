@@ -15,12 +15,12 @@ layout: compress
           <h1 class="section-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
           <ul class="tags">
             {% for tag in page.tags %}
-              <li><a href="{{ site.url }}/tags#{{ tag }}">{{ tag }}</a></li>
+              <li><a href="{{ site.url }}/tags.html#{{ tag }}">{{ tag }}</a></li>
               {% unless forloop.last %}
               {% endunless %}
             {% endfor %}
           </ul>
-          <div class="section-line reverse"><a href="{{ site.url}}/posts">Back to posts</a> <em>/</em></div>
+          <div class="section-line reverse"><a href="{{ site.url}}/posts.html">Back to posts</a> <em>/</em></div>
         </div>
       </div>
     </div>
