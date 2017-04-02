@@ -11,19 +11,17 @@ share: true
 
 # Charlotte Dome in a Day... almost
 ## The Proposition
-My girlfriend Spang had asked me if I would like to do this epic classic climb, Charlotte Dome on Memorial Day weekend, months ahead of time.
-Eager to please, wanting to gain more experience climbing on real rock in the backcountry, and the bonus of spending time with the woman I was super stoked about, I said yes even though my cardio and climbing skills were dubious for this trip.
-If Spang says I can do it, I believe I can do it, and I could make up with strength for what I lacked in endurance.
+My girlfriend Spang had asked me if I would like to do this epic classic climb on Charlotte Dome on Memorial Day weekend, months ahead of time.
+Eager to please, wanting to gain more experience climbing on real rock in the backcountry, and the bonus of spending time with the woman I was super stoked about, I said yes even though my cardio and climbing skills were dubious at best.
+If Spang said I could do it, I believed I could do it, and I could make up with strength for what I lacked in endurance.
 
 Charlotte Dome is a great classic climb, however it has a notoriously long approach.
-There's too options for approaches to Charlotte Dome, one is from the East Side which requires a permit for Kearsarge Pass, the other is from the West Side which requires a permit for Bub's Creek Trail.
-7 mile sand 3500 feet of vertical gain to the base of the climb.
-Typically done in a 3 day stint hiking out the 6.5 miles and most of the gain, ~2000 feet.
-Which leaves 1 mile and 1500 feet of gain to get to the base of the climb.
-The climb itself is 10-12 pitches long and another ~1500feet of climbing.
-We had packed far too much food and water not knowing how much we could get away with though Bub's "creek" was roaring.
+There's too options for approaching Charlotte Dome, one is from the East Side, which requires a permit for Kearsarge Pass, the other is from the West Side, which requires a permit for Bub's Creek Trail.
+The approach from Road's End via Bub's Creek totaled 7 miles and 3500 feet of vertical gain to the base of the climb.
+Typically done in a 3 day stint hiking out on Bub's Creek trail for 6.5 miles and most of the gain, ~2000 feet, and then heading off trail for 1 mile and 1500 feet of gain to get to the base of the climb with bunch of class 3 rock scrambling, the approach in and of itself is nothing to scoffed at.
+The climb itself is 10-12 pitches long and another ~1500feet of climbing, something that would be extra challenging if I didn't manage to rest up fully the night before.
 
-The week before the climb I ran around gathering both beta and info, tools and food.
+The week before the climb I ran around gathering climbing beta, trail info, tools and food.
 I printed out trail maps and route beta for both of us.
 I also planned the timing of the drive up and the food we would eat.
 We both weighed our gear cutting weight where we could since 7 miles in was no joke.
@@ -33,28 +31,28 @@ I had recently gotten rid of my car so I didn't have a vehicle to run errands wi
 
 ## First Mistake:
 On the drive up Spang realized that neither of us had reserved a permit for Bub's Creek trail.
-My heart sank, I was worried we wouldn't be able to do the trip I'd been looking forward to forward so long.
+My heart sank, I was worried we wouldn't be able to do the trip I'd been looking forward to for so long.
 Swallowing my internal panic I worked with her to lay out our options.
 
 - Option 1. We do something else.
 Feeling the full weight of the sunk cost fallacy I was very much against this option.
-- Option 2. We wake up early and attempt to be the first ones at the ranger station and hope that there's some passes left.
+- Option 2. We wake up early and attempt to be the first ones at the ranger station and hope that there's some permits for Bub's Creek left.
 This seemed to be the better option though it was dicy
 - Option 3. We leave super early and bandit camp near the base of the climb.
-I didn't like this option because, in my mind, being caught was mortifying.
+I didn't like this option because, in my mind, being caught on the trail was mortifying.
 
 We took option 2.
 
-So we stopped and bandit camped in the General Grant Tree National park **(name check)**
-Woke up early and arrived an hour before the ranger station opened.
+So we stopped and bandit camped in the Grant Grove National park.
+We woke up early and arrived an hour before the ranger station opened.
 It didn't matter.
 There were four parties ahead of us in line waiting for the ranger station to open.
 My anxiety levels rose as we waited for the ranger to arrive and as the clock ticked and hours of day light passed.
 Every minute we spent here was a minute we weren't moving towards camp.
 I eaves dropped on every conversation ahead of us with the ranger listening if anyone asked for permits for Bub's creek trail to figure out how many were left.
 Finally with only two people ahead of us someone asked about that trail and the ranger shook his head and was like, that's been booked out for weeks and gave them other options.
-Spang and I conferred quietly before hand that we should just get a permit, any permit.
-If we were going to break the permit rules we at least better pay the park.
+Spang and I conferred quietly before hand and decided that we should just get a permit, any permit.
+If we were going to break the permit rules we better at least pay the park.
 We had never heard of any of our friends getting asked for permits before in the backcountry so we thought we had a good chance of sliding by in spite of the mountains of beta that warned us about the rangers in King's Canyon.
 The ranger gave us an alternative itinerary that sounded awesome that would be a loop through the volcanic lakes and some cross-country bush whacking but it wasn't climbing and would just be a slog with heavy packs through the back country.
 
@@ -66,10 +64,10 @@ We get fined and sent back to the trail head with our tails between our legs.
 Best case we get to climb Charlotte Dome as planned.
 
 My nerves vibrated with anxiety as we skirted the ranger station and headed up the trail.
-What if we get caught?
+What if we got caught?
 I hate getting in trouble, I avoided it like the plague when I was little kid.
 A teachers pet from day one, this rule breaking felt unlike me.
-Our packs were brutally heavy and my cardio was miserably.
+Our packs were brutally heavy and my cardio was miserable.
 We stopped at the river for a snack before heading up the switch backs that we were dreading.
 
 ![River Backpack Kings Canyon]({{ site.url }}/images/Kings_Canyon_Backpacks.jpg)
@@ -92,7 +90,7 @@ We were caught.
 He asked for our permit and my heart raced as Spang pulled out the Permit that was for Mariposa Lake
 He looked it over and then looked at us how I imagine a parent looks at kid who's just been caught with their hand in the cookie jar.
 I wouldn't be surprised if I was blushing either.
-"Well," he sighed after he lectured us about why there's a permit system "I'd like to see you heading back toward the trail head. You have an awesome itinerary here and I think you would still have a good time on it. You should do it."
+"Well," he sighed after he lectured us about why there's a permit system "I'd like to see you heading back toward the trail head now. You have an awesome itinerary here and I think you would still have a good time on it. You should do it."
 We thanked him and put on our heavy packs and trudged back down to the trail head, our feet dragging and our heads hanging a bit lower.
 I sat at the trail head honestly trying not to cry, I was so disappointed and exhausted.
 Spang rubbed my shoulders and we discussed what we might do.
@@ -113,8 +111,9 @@ Time breakdown:
 - 6 hours to descend and walk out
 - 2 Hours for any unforeseen events
 
-We'd start 0200 HRS, get the cut off by sunrise around 0700 HRS perfect for scrambling up an unknown talus field to the base of the climb at 0800 HRS.
-Climb and summit around 2pm, we estimated about a 30 minutes per pitch, most of it would be me following.And another 5 hours out, arriving at the car around 1000 HRS. We decided to bring a few extra things to make bivying a bit more comfortable considering that the likelihood of needing to bivy was high.
+We'd start 0200 HRS, get to the cut off by sunrise around 0700 HRS perfect for scrambling up an unknown talus field to the base of the climb at 0800 HRS.
+Climb and summit around 2pm, we estimated about a 30 minutes per pitch, most of it would be me following, and another 5 hours out, arriving at the car around 1000 HRS.
+We decided to bring a few extra things to make bivying a bit more comfortable considering that the likelihood of needing to bivy was high.
 
 Gear:
 - 1 single rack with a handful of tricams
@@ -281,3 +280,8 @@ So it's definitely an enjoyable day in the backcountry and can be done in withou
 - Don't go on a holiday!
 
 Get out and crush it. 👊
+![Charlotte Dome Apporach Topo]({{ site.url }}/images/Charlotte_Dome_Approach_Topo.jpg)
+*GPS track of our route*
+
+![Charlotte Dome Climb and Descent Topo]({{ site.url }}/images/Charlotte_Dome_Climb_Descent_Topo.jpg)
+*GPS track of our ill fated descent*
