@@ -1,6 +1,6 @@
 echo 'Building Jekyll Assets'
-jekyll build
+bundle exec jekyll build
 echo 'Sourcing .env file'
 source .env
 echo 'Publishing to s3'
-s3_website push
+bundle exec s3_website push --verbose

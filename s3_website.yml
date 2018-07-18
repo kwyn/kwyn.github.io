@@ -7,12 +7,12 @@ cloudfront_distribution_id: <%= ENV['CLOUDFRONT_DISTRO_ID'] %>
 cloudfront_invalidate_root: true
 cloudfront_distribution_config:
   default_cache_behavior:
-    min_TTL: <%= 60 * 60 * 24 %>
+    min_ttl: <%= 60 * 60 * 24 %>
     viewer_protocol_policy: redirect-to-https
   aliases:
     quantity: 1
     items:
-      CNAME: blog.kwyn.io
+      - blog.kwyn.io
 
 index_document: index.html
 error_document: 404.html
