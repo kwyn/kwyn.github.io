@@ -6,7 +6,7 @@ layout: home
 
 ### Technical
 
-\- Entrepreneur changing the Sustainable Marijuana Farming Industry in California
+\- Entrepreneur changing the Sustainable Marijuana Farming Industry in California  
 \- Full-stack Software Engineer.  
 \- Machine Learning Engineer.
 
