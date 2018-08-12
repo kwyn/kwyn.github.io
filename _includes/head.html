@@ -1,37 +1,34 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  {% if page.title %}
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> {% if page.title %}
   <title>{{ page.title | markdownify | strip_html | strip_newlines | escape_once }} &#8211; {{ site.title }}</title>
   {% else %}
   <title>{{ site.title }}</title>
-  {% endif %}
-  {% if page.excerpt %}
-  <meta name="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
-  {% else %}
-  <meta name="description" content="{{ site.description }}">
-  {% endif %}
-  {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+  {% endif %} {% if page.excerpt %}
+  <meta name="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}"> {% else %}
+  <meta name="description" content="{{ site.description }}"> {% endif %} {% if page.tags %}
+  <meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
   <!-- Twitter Cards -->
-  {% if page.image %}{% capture image %}{{ page.image }}{% endcapture %}{% unless image contains 'http://' or image contains 'https://' %}{% capture image %}{{ site.url }}/images/{{ image }}{% endcapture %}{% endunless %}
+  {% if page.image %}{% capture image %}{{ page.image }}{% endcapture %}{% unless image contains 'http://' or image contains
+  'https://' %}{% capture image %}{{ site.url }}/images/{{ image }}{% endcapture %}{% endunless %}
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="{{ image }}">
-  {% else %}<meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="{{ image }}"> {% else %}
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:image" content="{{ site.logo }}">{% endif %}
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  {% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-  {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"> {% if page.excerpt %}
+  <meta name="twitter:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %} {% if site.twitter %}
+  <meta name="twitter:site" content="@{{ site.twitter }}">
   <meta name="twitter:creator" content="@{{ site.twitter }}">{% endif %}
   <!-- Open Graph -->
   <meta property="og:locale" content="{{ site.locale }}">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"> {% if page.excerpt %}
+  <meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:image" content="{{ site.url }}/images/{{ site.logo }}">
-  {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+  <meta property="og:image" content="{{ site.url }}/images/{{ site.logo }}"> {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html'
+  | strip_slash }}{% endif %}{% endcapture %}
   <link rel="canonical" href="{{ canonical }}">
   <!-- Handheld -->
   <meta name="HandheldFriendly" content="True">
@@ -40,25 +37,62 @@
   <!-- Feed -->
   {% feed_meta %}
   <!-- Favicons -->
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.url }}/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ site.url }}/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.url }}/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ site.url }}/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.url }}/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="{{ site.url }}/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="{{ site.url }}/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="{{ site.url }}/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{{ site.url }}/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="{{ site.url }}/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="{{ site.url }}/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="{{ site.url }}/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="{{ site.url }}/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="{{ site.url }}/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="{{ site.url }}/mstile-310x310.png" />
+
   <link rel="shortcut icon" type="image/png" href="{{ site.url }}/favicon.png" />
   <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" />
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/main.css">
   <!-- Left Block Image for Posts -->
-  {% if page.image %}
-  {% capture image %}{{ page.image }}{% endcapture %}
-  {% unless image contains 'http://' or image contains 'https://' %}{% capture image %}{{ site.url }}/images/{{ image }}{% endcapture %}{% endunless %}
+  {% if page.image %} {% capture image %}{{ page.image }}{% endcapture %} {% unless image contains 'http://' or image contains
+  'https://' %}{% capture image %}{{ site.url }}/images/{{ image }}{% endcapture %}{% endunless %}
   <style type="text/css">
-    #posts.inner-post-page .block-left {background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ image }}) no-repeat;background-size: cover;}
+    #posts.inner-post-page .block-left {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url({{ image }}) no-repeat;
+      background-size: cover;
+    }
   </style>
   {% else %}
   <style type="text/css">
-    #posts.inner-post-page .block-left {background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ site.url }}/{{ site.background.default-post }}) no-repeat;background-size: cover;}
+    #posts.inner-post-page .block-left {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url({{ site.url }}/{{ site.background.default-post }}) no-repeat;
+      background-size: cover;
+    }
   </style>
   {% endif %}
   <!-- Left Block Images for Home and Pages -->
   <style type="text/css">
-    #posts .block-left {background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ site.url }}/{{ site.background.post-list }}) no-repeat;background-size: cover, cover;}
-    .block-left {background: linear-gradient(rgba(44,45,51,0.9), rgba(44,45,51,0.9)), url({{ site.url }}/{{ site.background.homepage }}) no-repeat;background-size: cover;}
+    #posts .block-left {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url({{ site.url }}/{{ site.background.post-list }}) no-repeat;
+      background-size: cover, cover;
+    }
+
+    .block-left {
+      background: linear-gradient(rgba(44, 45, 51, 0.9), rgba(44, 45, 51, 0.9)),
+      url({{ site.url }}/{{ site.background.homepage }}) no-repeat;
+      background-size: cover;
+    }
   </style>
 </head>
