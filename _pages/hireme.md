@@ -21,7 +21,7 @@ I’m looking for a senior full-stack role on a product or developer tools team.
 - Have great work/life balance, rarely work more than 40 hours a week
 - Provide professional development opportunities
 - Have an HR department
-- Don’t have technical white boarding in your interview process
+- Don’t require writing code on whiteboards in your interview process
 - Provide generous vacation, parental leave, and 401k matching
 - Are not an agency or contractor
 - Work in JavaScript, React, Go, Docker, and/or Kubernetes
@@ -36,7 +36,7 @@ Full time remote or in SF or Oakland
 
 ### About me
 
-I’m a senior full-stack engineer with experience from designing CSS component systems to building and deploying docker containers. I’ve previously lead a team on HealthCare.gov and I’ve worked at both large and small companies on APIs and system integrations. I love writing functional code but realize when mutability is a necessary tradeoff. I believe software is inherently integrated with humans and that can’t be overlooked. I’m most happy when my work makes other peoples developers and/or consumers lives easier.
+I’m a senior full-stack engineer with experience from designing CSS component systems to building and deploying docker containers. I’ve previously lead a team on HealthCare.gov and I’ve worked at both large and small companies on APIs and system integrations. I love writing functional code but realize when mutability is a necessary tradeoff. I believe software is inherently integrated with humans and that can’t be overlooked. I’m most happy when my work makes other people's developers and/or consumers lives easier.
 
 I have experience in Javascript, CSS, React, Redux, Flux, GraphQL, Node, Docker, and various other technologies
 
