@@ -2,13 +2,18 @@
 layout: home
 ---
 
-# About
+# About  
 
-### Technical
+Tell me what you care about.
+
+### Technical  
 
 \- Full-stack Software Engineer.  
-\- Machine Learning Engineer.
+\- Machine Learning Engineer.  
 \- Distributed systems enthusiast.
+
+### [You can hire me!](https://blog.kwyn.io/hireme.html)
+Read more [here](https://blog.kwyn.io/hireme.html)
 
 ### Personal
 
