@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Recursion, Closure, and Iteration
 description: "To understand recursion you must first understand recursion"
 modified: 2014-01-26
@@ -8,6 +8,7 @@ image: the-golden-ratio.jpg
 comments: true
 share: true
 ---
+
 ## Background
 
 There's been quite some discussion about recursion and iteration in our classes at Hack Reactor when dealing with toy problems.
@@ -25,60 +26,61 @@ To test this I'm going to implement three different methods.
 To understand the conceptual difference of all of these I'm going to draw you a scenario. Imagine a teacher wants to record all of the names of the students in the class. The teacher could go about this in many ways. Imagine that you have to iterate over all students. You could imagine the following:
 
 1. Recursion with a closure :
-    Someone standing with a notepad writing the answer of each individual down and handing it to the teacher
+   Someone standing with a notepad writing the answer of each individual down and handing it to the teacher
 2. Functional recursion:
-    Every student in the chain writing their answer down on a note pad and passing it to the next student and eventually passing it all the way back to the teacher
+   Every student in the chain writing their answer down on a note pad and passing it to the next student and eventually passing it all the way back to the teacher
 3. Iteration:
-    Teacher going to each student and telling them to write their answer down on a note pad the teacher is holding.
+   Teacher going to each student and telling them to write their answer down on a note pad the teacher is holding.
 
 ## Implementations
 
-
 Ideally all of the following implementations should be executed in O(n) time. This is mainly to test V8's (chrome's javascript engine) handling of recursion, closure scopes, and iterations.
 
-
 ### Functional Recursion
+
 {% highlight javascript %}
 Tree.prototype.map = function(callback){
-  var newTree = new Tree(callback(this.value));
-  for (var i = 0 ; i < this.children.length; i++){
-    newTree.addChild( this.children[i].map(callback) );
-  }
-  return newTree;
+var newTree = new Tree(callback(this.value));
+for (var i = 0 ; i < this.children.length; i++){
+newTree.addChild( this.children[i].map(callback) );
+}
+return newTree;
 };
 {% endhighlight %}
 
 ### Closure Recursion
+
 {% highlight javascript %}
 Tree.prototype.closureMap = function(callback){
-  var buildNode = function(callback, node, newNode){
-    for(var i = 0; i < node.children.length; i++){
-      newNode.addChild( callback(node.children[i].value) );
-      buildNode(callback, node.children[i], newNode.children[i]);
-    }
-  };
-  var newTree = new Tree( callback(this.value) );
-  buildNode(callback, this, newTree);
-  return newTree;
+var buildNode = function(callback, node, newNode){
+for(var i = 0; i < node.children.length; i++){
+newNode.addChild( callback(node.children[i].value) );
+buildNode(callback, node.children[i], newNode.children[i]);
+}
+};
+var newTree = new Tree( callback(this.value) );
+buildNode(callback, this, newTree);
+return newTree;
 };
 {% endhighlight %}
 
 ### Iterative
+
 {% highlight javascript %}
 Tree.prototype.iterativeMap = function (callback) {
-  var newTree = new Tree(callback(this.value));
-  var stack = [ [this, newTree] ];
-  while(stack.length > 0){
-    currentNodes = stack.pop();
-    node = currentNodes[0];
-    newNode = currentNodes[1];
-    newNode.value = callback(node.value);
-    for(var i = 0; i < node.children.length; i++){
-      newNode.addChild(node.children[i].value);
-      stack.push([ node.children[i], newNode.children[i] ]);
-    }
-  }
-  return newTree;
+var newTree = new Tree(callback(this.value));
+var stack = [ [this, newTree] ];
+while(stack.length > 0){
+currentNodes = stack.pop();
+node = currentNodes[0];
+newNode = currentNodes[1];
+newNode.value = callback(node.value);
+for(var i = 0; i < node.children.length; i++){
+newNode.addChild(node.children[i].value);
+stack.push([ node.children[i], newNode.children[i] ]);
+}
+}
+return newTree;
 };
 {% endhighlight %}
 
