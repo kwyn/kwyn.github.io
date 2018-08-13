@@ -36,7 +36,7 @@ Full time remote or in SF or Oakland
 
 ### About me
 
-I’m a senior full-stack engineer with experience from designing css component systems to building and deploying docker containers. I’ve previously lead a team on HealthCare.gov and I’ve worked at both large and small companies on APIs and system integrations. I love writing functional code but realize when mutability is a necessary tradeoff. I believe software is inherently integrated with humans and that can’t be overlooked. I’m most happy when my work makes other peoples developers and/or consumers lives easier.
+I’m a senior full-stack engineer with experience from designing CSS component systems to building and deploying docker containers. I’ve previously lead a team on HealthCare.gov and I’ve worked at both large and small companies on APIs and system integrations. I love writing functional code but realize when mutability is a necessary tradeoff. I believe software is inherently integrated with humans and that can’t be overlooked. I’m most happy when my work makes other peoples developers and/or consumers lives easier.
 
 I have experience in Javascript, CSS, React, Redux, Flux, GraphQL, Node, Docker, and various other technologies
 
