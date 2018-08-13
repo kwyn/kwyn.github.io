@@ -12,7 +12,7 @@ I’m a full-stack engineer with a passion for API design and developer experien
 
 ### What
 
-I’m looking for a full-stack roll on a product or developer tool team.
+I’m looking for a full-stack role on a product or developer tools team.
 
 #### Ideally you:
 
