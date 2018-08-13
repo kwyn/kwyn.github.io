@@ -2,7 +2,7 @@
 layout: page
 title: Hire Me
 description: "I'm looking for my next job. Maybe I can work with you!"
-image: /hireme/The_Chief.jpg
+image: hireme/The_Chief.jpg
 permalink: /hireme.html
 ---
 
