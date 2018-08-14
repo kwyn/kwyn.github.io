@@ -50,7 +50,7 @@ For more details about my past work, you can find my resume [here](http://kwyn.g
 
 > I worked as a cross-functional design collaborator with Kwyn on HealthCare.gov. She lead technical efforts on the new version of the eligibility application. We paired on development in the front-end. She made sure I understood what I was coding by breaking down her explanations of the complex code base. I also watched her support the legacy application with ease. She has a great attitude and was a pleasure to sit next to during the year we worked together
 >
-> -- [Susan Lin](bysusanlin.com), Product Design Lead
+> -- [Susan Lin](http://bysusanlin.com), Product Design Lead
 
 >Kwyn served as the tech lead on our project team working to rebuild the insurance application on HealthCare.gov, creating a mobile first, human centered experience. My focus was on defining the project requirements with our stakeholders and our roadmap internally and Kwyn's input was essential to our estimation, planning, and technical approach. She consistently brought a voice of calm to an incredibly complex environment, supporting teammates through technical decisions and facilitating discussions to build consensus on a decision. She's quick to identify systemic problems impacting the work of the team and always offers thoughtful suggestions for shifts in team structure/process.  
 >
