@@ -28,7 +28,7 @@ I’m looking for a senior full-stack role on a product or developer tools team.
 
 ### When
 
-I’m available November 2018
+I’m available October 2018
 
 ### Where
 
