@@ -5,6 +5,9 @@ description: "I'm looking for my next job. Maybe I can work with you!"
 image: hireme/The_Chief.jpg
 permalink: /hireme.html
 ---
+<h2 style="color: hsl(348, 100%, 61%)"> I've found a job! Thank you so much for your interest and support. </h2>
+
+I'll be starting a Senior Platform Engineer at MailChimp in November. 🎉
 
 ## Hi! I’m Kwyn Meagher
 
@@ -42,7 +45,7 @@ I have experience in Javascript, CSS, React, Redux, Flux, GraphQL, Node, Docker,
 
 I’m just starting to ramp up on Go and I love it already.
 
-If you think I’d be a good fit for your team, please email me at kwyn.meagher[at]gmail.com.
+If you think I’d be a good fit for your team, please email me at hireme[at]kwyn.io .
 
 For more details about my past work, you can find my resume [here](http://kwyn.github.io/resume)
 
