@@ -7,8 +7,6 @@ permalink: /hireme.html
 ---
 <h2 style="color: hsl(348, 100%, 61%)"> I've found a job! Thank you so much for your interest and support. </h2>
 
-I'll be starting a Senior Platform Engineer at MailChimp in November. 🎉
-
 ## Hi! I’m Kwyn Meagher
 
 I’m a full-stack engineer with a passion for API design and developer experience. I’m also a weekend warrior rock climber. 🧗‍♀️️ I’m looking for my next thing! Maybe that’ll be with you.
