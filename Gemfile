@@ -4,4 +4,4 @@ gem 'jekyll'
 gem 'jekyll-sitemap'
 gem 'jekyll-feed'
 gem "jekyll-gist"
-gem 's3_website'
+gem "github-pages", group: :jekyll_plugins
