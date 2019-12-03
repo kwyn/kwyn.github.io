@@ -2,44 +2,44 @@
 title: Kwyn Meagher
 description: I do things, and sometimes I write about them.
 url: https://blog.kwyn.io
-logo: halve.png                                       # Site logo
+logo: halve.png # Site logo
 locale: en_US
 owner:
   name: Kwyn Alice Meagher
 
 # Left Block Images
 background:
-  homepage: images/Leading.jpg                           # this image will be shown on homepage's left block
-  post-list: images/Ledge.jpg             # this image will be shown on post list page
-  default-post: images/SmithRock.jpg   # this image will be shown when post's front matter doesn't specify any image
+  homepage: images/Leading.jpg # this image will be shown on homepage's left block
+  post-list: images/Ledge.jpg # this image will be shown on post list page
+  default-post: images/SmithRock.jpg # this image will be shown when post's front matter doesn't specify any image
 
 # Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
+permalink: /:title/
+markdown: kramdown
+highlighter: rouge
 kramdown:
   auto_ids: true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 sass:
-  sass_dir:         assets/_sass
-  style:            compressed
+  sass_dir: assets/_sass
+  style: compressed
 
 # Google Analytics
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-email:              kwyn@10x.engineer
+email: kwyn@10x.engineer
 #google.plus:        username
-twitter:            HarleyKwyn
+twitter: HarleyKwyn
 #facebook:           username
-github:             kwyn
+github: kwyn
 # stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:           HarleyKwyn
+linkedin: HarleyKwyn
 #xing:              username
-instagram:          HarleyKwyn
+instagram: HarleyKwyn
 #lastfm:            username
 #tumblr:            username
 #pinterest:         username
@@ -61,7 +61,23 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - github-pages
 
 # Exclude list
 include: [_pages]
-exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store, deploy_site.sh, .env]
+exclude:
+  [
+    README.md,
+    Gemfile,
+    Gemfile.lock,
+    _site,
+    src,
+    vendor,
+    CNAME,
+    LICENSE,
+    Rakefile,
+    .sass-cache,
+    .DS_Store,
+    deploy_site.sh,
+    .env,
+  ]
