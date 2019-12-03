@@ -1,6 +1,6 @@
 # Kwyn Alice Meagher's Jeckyll Blog
 
-I'm unabashedly using the Halve theme wihc is amazing and you should help support the creator
+I'm unabashedly using the Halve theme wich is amazing and you should help support the creator
 
 Simply use config a `.env` to fit the parameters in `.env.example`
 
